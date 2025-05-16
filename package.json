@@ -1,0 +1,8 @@
+{
+	"name": "rn-fundamentals",
+	"private": true,
+	"workspaces": [
+		"cli",
+		"demo"
+	]
+}

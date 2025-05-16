@@ -1,0 +1,6 @@
+[submodule "cli"]
+	path = cli
+	url = https://github.com/Dragan14/react-native-fundamentals.git
+[submodule "demo"]
+	path = demo
+	url = https://github.com/Dragan14/react-native-fundamentals-demo.git
