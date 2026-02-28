@@ -4,5 +4,8 @@
 	"workspaces": [
 		"cli",
 		"demo"
-	]
+	],
+	"scripts": {
+		"clean": "watchman watch-del-all && rm -rf node_modules cli/node_modules cli/dist cli/package-lock.json demo/node_modules demo/.expo demo/ios demo/android demo/package-lock.json $TMPDIR/react-native-packager-cache-* $TMPDIR/metro-* $TMPDIR/haste-* tsconfig.tsbuildinfo && npm cache clean --force"
+	}
 }
